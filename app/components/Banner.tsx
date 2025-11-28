@@ -59,7 +59,7 @@ export default function Banner(): React.JSX.Element {
                 <div className="relative inline-block ">
                   <Image
                     src="/assets/arrow.png"
-                    alt="Book"
+                    alt="Arrow pointer"
                     width={80}
                     height={80}
                     className="absolute top-5 rotate-z-280"
@@ -100,6 +100,7 @@ export default function Banner(): React.JSX.Element {
               <Image
                 src="/assets/arrow.png"
                 alt="Book"
+                alt="Arrow pointer"
                 width={100}
                 height={100}
                 className="absolute "
@@ -140,8 +141,8 @@ export default function Banner(): React.JSX.Element {
           <p className="text-lg lg:text-xl text-white/90 tracking-wide flex flex-wrap items-center justify-center lg:justify-start gap-2">
             <span>Currently, I&apos;m a Software Engineer at</span>
             <span className="flex items-center gap-2">
-              <Image src="/assets/fb.png" alt="Facebook" width={20} height={20} className="w-5 h-5" style={{ width: "auto", height: "auto" }} />
-              <span className="text-blue-400 font-semibold">Facebook,</span>
+              <Image src="/assets/webhr.webp" alt="WebHR" width={20} height={20} className="w-5 h-5" style={{ width: "auto", height: "auto" }} />
+              <span className="text-blue-400 font-semibold">WebHR,</span>
             </span>
           </p>
           <p className="text-lg text-white/80 max-w-2xl mt-15 mx-auto lg:mx-0">

@@ -13,7 +13,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Ibrahim Memon - Software Engineer & UI/UX Designer",
-  description: "A self-taught UI/UX designer and Software Engineer at Facebook. Creating meaningful and delightful digital products that balance user needs and business goals. 3+ years of industry experience.",
+  description: "A self-taught UI/UX designer and Software Engineer at WebHR. Creating meaningful and delightful digital products that balance user needs and business goals. 3+ years of industry experience.",
   keywords: [
     "Ibrahim Memon",
     "Software Engineer",
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "React Developer",
     "Next.js Developer",
     "Web Designer",
-    "Facebook Engineer",
+    "WebHR Engineer",
     "Portfolio",
   ],
   authors: [{ name: "Ibrahim Memon" }],
@@ -31,15 +31,15 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://ibrahimmemon.dev",
+    url: "https://ibiimemon.com",
     title: "Ibrahim Memon - Software Engineer & UI/UX Designer",
-    description: "A self-taught UI/UX designer and Software Engineer at Facebook. Creating meaningful and delightful digital products.",
+    description: "A self-taught UI/UX designer and Software Engineer at WebHR. Creating meaningful and delightful digital products.",
     siteName: "Ibrahim Memon Portfolio",
   },
   twitter: {
     card: "summary_large_image",
     title: "Ibrahim Memon - Software Engineer & UI/UX Designer",
-    description: "A self-taught UI/UX designer and Software Engineer at Facebook.",
+    description: "A self-taught UI/UX designer and Software Engineer at WebHR.",
   },
   robots: {
     index: true,
@@ -68,7 +68,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="canonical" href="https://ibrahimmemon.dev" />
+        <link rel="canonical" href="https://ibiimemon.com" />
       </head>
       <body
         className={`${poppins.variable} font-sans antialiased`}
